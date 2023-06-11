@@ -1,5 +1,6 @@
-@mixin primary-button($bg-color: red) {
+@mixin primary-button($bg-color:#073a59) {
       text-decoration: none;
+      color: white;
       display: inline-block;
       border: none; 
       padding: $padding;
@@ -7,10 +8,12 @@
       background-color: $bg-color;
 
       &:hover {
-            background-color: blue;
+            background-color: #092536;
           }
     }
     
     .button-primary-button {
       @include primary-button;
   }
+
+  

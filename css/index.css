@@ -56,14 +56,15 @@ table {
 
 .button-primary-button {
   text-decoration: none;
+  color: white;
   display: inline-block;
   border: none;
   padding: 15px;
   border-radius: 6px;
-  background-color: red;
+  background-color: #073a59;
 }
 .button-primary-button:hover {
-  background-color: blue;
+  background-color: #092536;
 }
 
 .p-0 {
