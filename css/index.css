@@ -153,14 +153,18 @@ img {
   background-color: #cdcbb6;
 }
 
-.ul {
+ul {
   list-style-type: disc;
   padding: 0;
 }
 
-.ol {
+ol {
   list-style-type: upper-roman;
   padding: 0;
+}
+
+.link {
+  color: #073a59;
 }
 
 .p-0 {
