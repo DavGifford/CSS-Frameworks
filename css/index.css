@@ -319,6 +319,30 @@ ol {
   font-weight: 700;
 }
 
+.br {
+  border-radius: 10px;
+}
+
+.br-none {
+  border-radius: 0;
+}
+
+.br-xs {
+  border-radius: 2.5px;
+}
+
+.br-sm {
+  border-radius: 5px;
+}
+
+.br-lg {
+  border-radius: 20px;
+}
+
+.br-full {
+  border-radius: 50%;
+}
+
 .container {
   max-width: 72em;
   margin-inline: Auto;
