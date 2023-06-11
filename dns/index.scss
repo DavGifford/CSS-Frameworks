@@ -5,11 +5,17 @@
 @import 'base';
 
 // colors
+@import 'colors';
 
 // buttons
 @import 'components/buttons';
+
+// list
+@import 'components/lists';
 
 // components (button, card, navbar)
 
 // utilities (margin, padding, opacity)
 @import 'utilities';
+@import 'grid';
+

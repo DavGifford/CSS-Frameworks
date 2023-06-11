@@ -5,6 +5,15 @@ $success: #2ea690;
 $warning: #839C7d;
 $info: #F2f0d8;
 
+// Colours
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "warning": $warning,
+    "info": $info
+);
+
 // Spacing
 $padding: 15px;
 $margin: 30px;
@@ -22,3 +31,8 @@ $fs-sm: $fs * 0.667;
 $fs-lg: $fs * 1.5;
 $fs-xl: $fs * 2.25;
 $fs-xxl: $fs * 3.375;
+
+// Font Weights
+$fw: 400;
+$fw-light: 200;
+$fw-bold: 700;
