@@ -1,0 +1,111 @@
+@use 'sass:math';
+
+$utilities: (
+    "padding": (
+        "prefix": "p",
+        "values": (
+            "0": 0,
+            "1": $padding,
+            "2": $padding * 2
+        ),
+    ),
+    "padding-left": (
+        "prefix": "pl",
+        "values": (
+            "0": 0,
+            "1": $padding,
+            "2": $padding * 2
+        ),
+    ),
+    "padding-right": (
+        "prefix": "pr",
+        "values": (
+            "0": 0,
+            "1": $padding,
+            "2": $padding * 2
+        ),
+    ),
+    "padding-top": (
+        "prefix": "pt",
+        "values": (
+            "0": 0,
+            "1": $padding,
+            "2": $padding * 2
+        ),
+    ),
+    "padding-bottom": (
+        "prefix": "pb",
+        "values": (
+            "0": 0,
+            "1": $padding,
+            "2": $padding * 2
+        ),
+    ),
+    "margin": (
+        "prefix": "m",
+        "values": (
+          "0": 0,
+          "1": $margin,
+          "2": $margin * 2,
+        ),
+      ),
+    "margin-left": (
+        "prefix": "ml",
+        "values": (
+          "0": 0,
+          "1": $margin,
+          "2": $margin * 2,
+        ),
+      ),
+    "margin-right": (
+        "prefix": "mr",
+        "values": (
+          "0": 0,
+          "1": $margin,
+          "2": $margin * 2,
+        ),
+      ),
+    "margin-top": (
+        "prefix": "mt",
+        "values": (
+          "0": 0,
+          "1": $margin,
+          "2": $margin * 2,
+        ),
+      ),
+    "margin-bottom": (
+        "prefix": "mb",
+        "values": (
+          "0": 0,
+          "1": $margin,
+          "2": $margin * 2,
+        ),
+      ),
+      "font-size": (
+        "prefix": "fs",
+        "values": (
+          "sm": $fs-sm,
+          "md": $fs,
+          "lg": $fs-lg,
+          "xl": $fs-xl,
+          "xxl": $fs-xxl
+        )
+      )
+);
+// generate utility classes
+@each $property, $map in $utilities {
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+  
+    @each $k, $v in $values {
+      @if($k == "default") {
+        .#{$prefix} {
+          #{$property}: $v;
+        }
+      } @else {
+        .#{$prefix}-#{$k}{
+          #{$property}: $v;
+        }
+      }
+    }
+  }
