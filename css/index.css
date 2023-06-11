@@ -153,14 +153,18 @@ img {
   background-color: #cdcbb6;
 }
 
-.ul {
+ul {
   list-style-type: disc;
   padding: 0;
 }
 
-.ol {
+ol {
   list-style-type: upper-roman;
   padding: 0;
+}
+
+.link {
+  color: #073a59;
 }
 
 .p-0 {
@@ -313,6 +317,30 @@ img {
 
 .fw-b {
   font-weight: 700;
+}
+
+.br {
+  border-radius: 10px;
+}
+
+.br-none {
+  border-radius: 0;
+}
+
+.br-xs {
+  border-radius: 2.5px;
+}
+
+.br-sm {
+  border-radius: 5px;
+}
+
+.br-lg {
+  border-radius: 20px;
+}
+
+.br-full {
+  border-radius: 50%;
 }
 
 .container {
