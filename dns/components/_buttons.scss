@@ -1,30 +1,16 @@
-@mixin primary-button($primary) {
+@mixin primary-button($bg-color: red) {
       text-decoration: none;
       display: inline-block;
       border: none; 
-      padding: $p-1;
+      padding: $padding;
       border-radius: 6px;
-      background-color: $primary;
+      background-color: $bg-color;
 
       &:hover {
-            background-color: lighten($val, 7);
+            background-color: blue;
           }
     }
     
-
-    @mixin secondary-button($secondary) {
-      text-decoration: none;
-      display: inline-block;
-      border: none; 
-      padding: $p-1;
-      border-radius: 6px;
-      background-color: $secondary;
-    
-      &:hover {
-            background-color: lighten($val, 7);
-          }
-    }
-
-    .btn-secondary-button {
-      @include secondary-button;
+    .button-primary-button {
+      @include primary-button;
   }

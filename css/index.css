@@ -54,6 +54,18 @@ table {
   border-spacing: 0;
 }
 
+.button-primary-button {
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: red;
+}
+.button-primary-button:hover {
+  background-color: blue;
+}
+
 .p-0 {
   padding: 0;
 }
