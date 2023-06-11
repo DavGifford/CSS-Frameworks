@@ -192,7 +192,13 @@ ol {
 }
 
 .link {
-  color: #073a59;
+  color: #436073;
+}
+.link:active {
+  color: #2ea690;
+}
+.link:hover {
+  color: #839C7d;
 }
 
 .p-0 {
