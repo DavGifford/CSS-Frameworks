@@ -1,11 +1,11 @@
 .link{
-    color: $primary;
+    color: $secondary;
 
-    //   &:active{
-    //     color: aquamarine;
-    //   }
-    //   &:hover{
-    //     color: aquamarine;
-    //   }
+      &:active{
+        color: $success;
+      }
+      &:hover{
+        color: $warning;
+      }
 
 }
