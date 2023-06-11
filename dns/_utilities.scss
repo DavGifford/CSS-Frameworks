@@ -90,6 +90,14 @@ $utilities: (
           "xl": $fs-xl,
           "xxl": $fs-xxl
         )
+      ),
+      "font-weight": (
+        "prefix": "fw",
+        "values": (
+          "r": $fw,
+          "l": $fw-light,
+          "b": $fw-bold,
+        )
       )
 );
 // generate utility classes

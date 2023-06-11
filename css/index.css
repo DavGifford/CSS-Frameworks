@@ -177,6 +177,18 @@ img {
   font-size: 3.375rem;
 }
 
+.fw-r {
+  font-weight: 400;
+}
+
+.fw-l {
+  font-weight: 200;
+}
+
+.fw-b {
+  font-weight: 700;
+}
+
 .container {
   max-width: 56em;
   margin-inline: Auto;
