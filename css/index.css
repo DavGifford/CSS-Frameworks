@@ -176,3 +176,8 @@ img {
 .fs-xxl {
   font-size: 3.375rem;
 }
+
+.container {
+  max-width: 56em;
+  margin-inline: Auto;
+}
