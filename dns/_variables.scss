@@ -4,6 +4,8 @@ $secondary: #436073;
 $success: #2ea690;
 $warning: #839C7d;
 $info: #F2f0d8;
+$white: #f2f2f2;
+$black: #333333;
 
 // Colours
 $colors: (
@@ -11,7 +13,9 @@ $colors: (
     "secondary": $secondary,
     "success": $success,
     "warning": $warning,
-    "info": $info
+    "info": $info,
+    "white": $white,
+    "black": $black
 );
 
 // Spacing

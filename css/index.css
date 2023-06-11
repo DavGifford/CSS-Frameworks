@@ -64,6 +64,22 @@ img {
   background-color: #F2f0d8;
 }
 
+.text-white {
+  color: #f2f2f2;
+}
+
+.bg-white {
+  background-color: #f2f2f2;
+}
+
+.text-black {
+  color: #333333;
+}
+
+.bg-black {
+  background-color: #333333;
+}
+
 .button-primary-button {
   color: white;
   display: inline-block;
@@ -300,6 +316,11 @@ img {
 }
 
 .container {
-  max-width: 56em;
+  max-width: 72em;
   margin-inline: Auto;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
 }
