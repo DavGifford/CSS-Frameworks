@@ -98,7 +98,18 @@ $utilities: (
           "l": $fw-light,
           "b": $fw-bold,
         )
-      )
+      ),
+      "border-radius": (
+        "prefix": "br",
+        "values": (
+          "default": $border-radius,
+          "none": 0,
+          "xs": math.div($border-radius, 4),
+          "sm": math.div($radius, 2),
+          "lg": $border-radius * 2,
+          "full": 50%,
+        )
+      ),
 );
 // generate utility classes
 @each $property, $map in $utilities {
