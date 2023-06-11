@@ -193,3 +193,11 @@ img {
   max-width: 56em;
   margin-inline: Auto;
 }
+
+.ul {
+  list-style-type: disc;
+}
+
+.ol {
+  list-style-type: upper-roman;
+}
