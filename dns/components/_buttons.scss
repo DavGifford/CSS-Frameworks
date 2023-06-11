@@ -1,0 +1,30 @@
+@mixin primary-button($primary) {
+      text-decoration: none;
+      display: inline-block;
+      border: none; 
+      padding: $p-1;
+      border-radius: 6px;
+      background-color: $primary;
+
+      &:hover {
+            background-color: lighten($val, 7);
+          }
+    }
+    
+
+    @mixin secondary-button($secondary) {
+      text-decoration: none;
+      display: inline-block;
+      border: none; 
+      padding: $p-1;
+      border-radius: 6px;
+      background-color: $secondary;
+    
+      &:hover {
+            background-color: lighten($val, 7);
+          }
+    }
+
+    .btn-secondary-button {
+      @include secondary-button;
+  }
