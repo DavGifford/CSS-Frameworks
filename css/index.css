@@ -319,3 +319,8 @@ img {
   max-width: 72em;
   margin-inline: Auto;
 }
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
