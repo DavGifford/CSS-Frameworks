@@ -24,6 +24,46 @@ img {
   max-width: 100%;
 }
 
+.text-primary {
+  color: #073a59;
+}
+
+.bg-primary {
+  background-color: #073a59;
+}
+
+.text-secondary {
+  color: #436073;
+}
+
+.bg-secondary {
+  background-color: #436073;
+}
+
+.text-success {
+  color: #2ea690;
+}
+
+.bg-success {
+  background-color: #2ea690;
+}
+
+.text-warning {
+  color: #839C7d;
+}
+
+.bg-warning {
+  background-color: #839C7d;
+}
+
+.text-info {
+  color: #F2f0d8;
+}
+
+.bg-info {
+  background-color: #F2f0d8;
+}
+
 .button-primary-button {
   text-decoration: none;
   color: white;
