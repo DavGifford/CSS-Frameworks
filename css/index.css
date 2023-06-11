@@ -244,13 +244,24 @@ ol {
 }
 
 .link {
-  color: #f9f99a;
+  color: #436073;
 }
 .link:active {
   color: #2ea690;
 }
 .link:hover {
   color: #839C7d;
+}
+
+input[type=text] {
+  width: 10rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  background-color: #436073;
+  color: #f2f2f2;
 }
 
 .p-0 {
