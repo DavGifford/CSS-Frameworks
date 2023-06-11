@@ -1,8 +1,7 @@
 // ------------------------- Create a @mixin for each style -------------------------
 
 // PRIMARY BUTTON
-@mixin primary-button($bg-color:#073a59) {
-      color: white;
+@mixin button($bg-color: red) {
       display: inline-block;
       font-weight: bold;
       border: none; 
@@ -16,88 +15,86 @@
           }
     }
 
-    // SECONDARY BUTTON
-@mixin secondary-button($bg-color:#436073) {
-      color: black;
-      display: inline-block;
-      font-weight: bold;
-      border: none; 
-      padding: $padding;
-      margin: $margin;
-      border-radius: 6px;
-      background-color: $bg-color;
+//     // SECONDARY BUTTON
+// @mixin secondary-button($bg-color:#436073) {
+//       color: black;
+//       display: inline-block;
+//       font-weight: bold;
+//       border: none; 
+//       padding: $padding;
+//       margin: $margin;
+//       border-radius: 6px;
+//       background-color: $bg-color;
 
-      &:hover {
-            background-color: #334958;
-            color: white;
-          }
-}
+//       &:hover {
+//             background-color: #334958;
+//             color: white;
+//           }
+// }
 
-// SUCCESS BUTTON
-@mixin success-button($bg-color:#2ea690) {
-      color: black;
-      display: inline-block;
-      font-weight: bold;
-      border: none; 
-      padding: $padding;
-      margin: $margin;
-      border-radius: 6px;
-      background-color: $bg-color;
+// // SUCCESS BUTTON
+// @mixin success-button($bg-color:#2ea690) {
+//       color: black;
+//       display: inline-block;
+//       font-weight: bold;
+//       border: none; 
+//       padding: $padding;
+//       margin: $margin;
+//       border-radius: 6px;
+//       background-color: $bg-color;
 
-      &:hover {
-            background-color: #268c79;
-            color: white;
-          }
-}
+//       &:hover {
+//             background-color: #268c79;
+//             color: white;
+//           }
+// }
 
-// WARNING BUTTON
-@mixin warning-button($bg-color:#839C7d) {
-      color: black;
-      display: inline-block;
-      font-weight: bold;
-      border: none; 
-      padding: $padding;
-      margin: $margin;
-      border-radius: 6px;
-      background-color: $bg-color;
+// // WARNING BUTTON
+// @mixin warning-button($bg-color:#839C7d) {
+//       color: black;
+//       display: inline-block;
+//       font-weight: bold;
+//       border: none; 
+//       padding: $padding;
+//       margin: $margin;
+//       border-radius: 6px;
+//       background-color: $bg-color;
 
-      &:hover {
-            background-color: #6f856a;
-            color: white;
-          }
-}
-
-
-// INFO BUTTON
-@mixin info-button($bg-color:#F2f0d8) {
-      color: black;
-      display: inline-block;
-      font-weight: bold;
-      border: 1px rgb(200, 184, 146) solid; 
-      padding: $padding;
-      margin: $margin;
-      border-radius: 6px;
-      background-color: $bg-color;
-
-      &:hover {
-            background-color: #cdcbb6;
-          }
-}
+//       &:hover {
+//             background-color: #6f856a;
+//             color: white;
+//           }
+// }
 
 
-// -------------------------  Apply the @mixin to each button -------------------------
- .button-primary-button {
-      @include primary-button;
+// // INFO BUTTON
+// @mixin info-button($bg-color:#F2f0d8) {
+//       color: black;
+//       display: inline-block;
+//       font-weight: bold;
+//       border: 1px rgb(200, 184, 146) solid; 
+//       padding: $padding;
+//       margin: $margin;
+//       border-radius: 6px;
+//       background-color: $bg-color;
+
+//       &:hover {
+//             background-color: #cdcbb6;
+//           }
+// }
+
+
+// -------------------------  Apply the @mixin  -------------------------
+ .button {
+      @include button;
   }
-  .button-secondary-button {
-      @include secondary-button;
-  }
-.button-success-button {
-      @include success-button;
-}
-.button-warning-button {
-      @include warning-button;
-}
-.button-info-button {
-      @include info-button;
+
+// -------------------------  Loop for all buttons  -------------------------
+@each $key, $val in $colors {
+      .button-#{$key} {
+            @include button($val);
+            &:hover {
+                  background-color: darken($val, 10);
+            }
+      }
 }
