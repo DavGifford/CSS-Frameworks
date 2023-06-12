@@ -14,9 +14,15 @@ input[type=text] {
 
 // table
 tr {
-
+    border: 1px solid #333;
+    padding: 8px;
     &:nth-child(even){
         background-color: $secondary;
         color: $white;
     }
+}
+
+td {
+    border: 1px solid #333;
+    padding: 8px;
 }
