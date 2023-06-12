@@ -513,5 +513,9 @@ th {
 
 .flex {
   display: flex;
-  max-width: 200px;
+}
+
+.flex-stack {
+  display: flex;
+  flex-wrap: wrap;
 }
