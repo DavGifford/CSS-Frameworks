@@ -3,7 +3,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-
+// when selected it goes into a dark mode
     &:focus {
         background-color: $secondary;
         color: $white;
