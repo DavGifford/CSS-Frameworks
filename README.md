@@ -3,17 +3,24 @@
 ## Installation
 
 ### SCSS Installation
+
 On the top bar, click "Terminal" > "New" and type " npm install -g sass" in the command terminal. This will install SASS.
 
 Next, type "sass --version" to make sure SASS has been installed properly.
 
-Now you can compile your Sass code to CSS using the sass command sass input.scss output.css You can also use the --watch flag sass --watch input.scss output.css
+Now, normally you can compile your Sass code to CSS using the sass command sass input.scss output.css You can also use the --watch flag sass --watch input.scss output.css.
 
-** Keep your terminal open **
+However for this project we will be using Gulp to compile everything for us in to our CSS file.
+
+**Keep your terminal open**
 
 ### Gulp Installation
 
-To start type "npm install --global gulp-cli"
+To start type "npm install --global gulp-cli" to make sure Gulp is running locally and works in the command line.
+
+To compile the scss code to the linked css stylesheet simply type gulp in the command line to make this happen.
+
+If there is an issue running gulp, the command npm run gulp can be used instead to run the gulp script.
 
 ## Usage and customization Instructions
 
@@ -33,6 +40,7 @@ i.e. pb-2 for padding bottom x 2
 There is a very basic FLEX BOX function in this framework. Located in the "_layout.scss" file, at the very bottom, there is a flex class and a flex-stack class. To create a flex system, nest all your desired elements into a new div, then use the class "flex" on it. If you want all the individual items within the flexbox to stack on top of each other, or "wrap," you can add the class "flex-stack" to a new div housing those elements. (You can see an example of this in the "Colors" and "Background" sections in the index.html file.) 
 
 #### Utility classes include:
+
 Padding: p, pl, pr, pt, pb - with values of 1, 2
 Margin: m, ml, mr, mt, mb - with values of 1, 2
 Font Size: fs - with values sm, md, lg, xl, xxl, xxxl
@@ -40,10 +48,10 @@ Font Weight: fw - with values r (regular), l (light), b (bold)
 Border Radius: br - with values xs, sm, lg, full (br with no prefix for default radius)
 
 #### Colour classes are as follows:
+
 Text Colour: text-(name of colour)
 Background Color: bg-(name of colour)
 Border Colour: bc-(name of colour)
-
 
 #### Default Colours
 
@@ -54,4 +62,4 @@ $warning: #839C7d;
 $info: #F9F99A;
 $white: #F2F2F2;
 $black: #333333;
-$peach: #F3EDE6; 
+$peach: #F3EDE6;
