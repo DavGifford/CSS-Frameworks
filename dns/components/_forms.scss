@@ -20,6 +20,9 @@ tr {
         background-color: $secondary;
         color: $white;
     }
+    &:nth-child(odd){
+        color: $secondary;
+    }
 }
 
 td {
