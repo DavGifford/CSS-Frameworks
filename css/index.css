@@ -517,3 +517,8 @@ td {
   display: flex;
   align-items: center;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
