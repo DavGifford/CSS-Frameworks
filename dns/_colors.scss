@@ -5,7 +5,7 @@
     .bg-#{$key} {
         background-color: $val;
     }
-    .br-#{$key} {
+    .bc-#{$key} {
         border: $border solid $val;
     }
 }

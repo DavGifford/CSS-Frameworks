@@ -1,3 +1,5 @@
+// text input
+
 input[type=text] {
     width: 14rem;
     padding: 12px 20px;
@@ -8,4 +10,13 @@ input[type=text] {
         background-color: $secondary;
         color: $white;
       }
+}
+
+// table
+tr {
+
+    &:nth-child(even){
+        background-color: $secondary;
+        color: $white;
+    }
 }
