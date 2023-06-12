@@ -14,4 +14,10 @@ Changes to colours, spacing, and font sizes can be made in the \_variables.scss 
 
 Naming conventions follow a similar structure to Bootstrap for things like padding and margin (i.e. p represents padding, and mt represents margin top)
 
-For padding and margin there are two sizes available (i.e. p-1, and p-2 or m-1, and m-2)
+Utility classes use a prefix followed by a hyphen and a value
+i.e. pb-2 for padding bottom x 2
+
+utility classes include:
+Padding: p, pl, pr, pt, pb - with values of 1, 2
+Margin: m, ml, mr, mt, mb - with values of 1, 2
+Font Size: fs - with values
