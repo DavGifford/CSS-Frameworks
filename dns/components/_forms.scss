@@ -9,3 +9,11 @@ input[type=text] {
         color: $white;
       }
 }
+
+tr {
+
+    &:nth-child(even){
+        background-color: $secondary;
+        color: $white;
+    }
+}
