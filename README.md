@@ -28,14 +28,26 @@ Naming conventions follow a similar structure to Bootstrap for things like paddi
 Utility classes use a prefix followed by a hyphen and a value
 i.e. pb-2 for padding bottom x 2
 
-Utility classes include:
+#### Utility classes include:
 Padding: p, pl, pr, pt, pb - with values of 1, 2
 Margin: m, ml, mr, mt, mb - with values of 1, 2
 Font Size: fs - with values sm, md, lg, xl, xxl, xxxl
 Font Weight: fw - with values r (regular), l (light), b (bold)
 Border Radius: br - with values xs, sm, lg, full (br with no prefix for default radius)
 
-Colour classes are as follows:
+#### Colour classes are as follows:
 Text Colour: text-(name of colour)
 Background Color: bg-(name of colour)
 Border Colour: bc-(name of colour)
+
+
+#### Default Colours
+
+$primary: #073A59;
+$secondary: #436073;
+$success: #2EA690;
+$warning: #839C7d;
+$info: #F9F99A;
+$white: #F2F2F2;
+$black: #333333;
+$peach: #F3EDE6; 
