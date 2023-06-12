@@ -21,12 +21,16 @@ Changes to colours, spacing, and font sizes can be made in the "\_variables.scss
 
 Heading sizes must be set using the fs class, with fs-xxxl representing an H1, and following suit in descending order of size.
 
-Buttons, Forms, Links, and Lists can be modified in their respective files in the components folder.
+Buttons, Forms, Links, and Lists can be modified in their respective files in the components folder. 
+
+To modify BUTTONS, go into the components folder and select the "_buttons.scss" file. The @mixin is a basic template for your button. The @mixin is applied to the "button" class, as seen in line 20. You can use the button class for any button on your site. The last block of code is a very basic @each loop that applies the @mixin to all the buttons types and their variants: (primary, secondary, success, warning, info) and offers a dimming effect on hover. 
 
 Naming conventions follow a similar structure to Bootstrap for things like padding and margin (i.e. p represents padding, and mt represents margin top)
 
 Utility classes use a prefix followed by a hyphen and a value
 i.e. pb-2 for padding bottom x 2
+
+There is a very basic FLEX BOX function in this framework. Located in the "_layout.scss" file, at the very bottom, there is a flex class and a flex-stack class. To create a flex system, nest all your desired elements into a new div, then use the class "flex" on it. If you want all the individual items within the flexbox to stack on top of each other, or "wrap," you can add the class "flex-stack" to a new div housing those elements. (You can see an example of this in the "Colors" and "Background" sections in the index.html file.) 
 
 #### Utility classes include:
 Padding: p, pl, pr, pt, pb - with values of 1, 2
