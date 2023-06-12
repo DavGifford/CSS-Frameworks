@@ -300,14 +300,12 @@ tr:nth-child(odd) {
   color: #436073;
 }
 
-td {
-  border: 1px solid #333;
+td, th {
+  border: 2px solid #333;
   padding: 8px;
 }
 
 th {
-  border: 1px solid #333;
-  padding: 8px;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
