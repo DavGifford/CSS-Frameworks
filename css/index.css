@@ -292,6 +292,10 @@ input[type=text]:focus {
   color: #f2f2f2;
 }
 
+form {
+  margin: 10px;
+}
+
 table {
   border-collapse: collapse;
   margin: 10px;
