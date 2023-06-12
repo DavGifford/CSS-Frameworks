@@ -19,28 +19,7 @@ img {
   max-width: 100%;
 }
 
-/* Our Styles */
-.h1 {
-  font-size: 5rem;
-  font-weight: 400;
-}
-
-.h2 {
-  font-size: 4rem;
-  font-weight: 400;
-}
-
-.h3 {
-  font-size: 3rem;
-  font-weight: 400;
-}
-
-.h4 {
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-.h5 {
+h1, h2, h3, h4, h5, h6 {
   font-size: 1rem;
   font-weight: 400;
 }
@@ -321,6 +300,9 @@ tr:nth-child(even) {
   background-color: #436073;
   color: #f2f2f2;
 }
+tr:nth-child(odd) {
+  color: #436073;
+}
 
 td {
   border: 1px solid #333;
@@ -516,4 +498,9 @@ td {
 .align-items {
   display: flex;
   align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
 }
