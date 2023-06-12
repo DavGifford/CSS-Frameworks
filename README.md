@@ -10,7 +10,11 @@ Now you can compile your Sass code to CSS using the sass command sass input.scss
 
 ## Usage and customization Instructions
 
-Changes to colours, spacing, and font sizes can be made in the \_variables.scss files and once compiled the applicable classes will be created trough the css file.
+Changes to colours, spacing, and font sizes can be made in the "\_variables.scss" file and once compiled the applicable classes will be created trough the css file.
+
+Heading sizes must be set using the fs class, with fs-xxxl representing an H1, and following suit in descending order of size.
+
+Buttons, Forms, Links, and Lists can be modified in their respective files in the components folder.
 
 Naming conventions follow a similar structure to Bootstrap for things like padding and margin (i.e. p represents padding, and mt represents margin top)
 
