@@ -14,8 +14,7 @@ input[type=text] {
 
 // table
 tr {
-    border: 1px solid #333;
-    padding: 8px;
+
     &:nth-child(even){
         background-color: $secondary;
         color: $white;
@@ -28,4 +27,12 @@ tr {
 td {
     border: 1px solid #333;
     padding: 8px;
+}
+
+th {
+    border: 1px solid #333;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
 }
