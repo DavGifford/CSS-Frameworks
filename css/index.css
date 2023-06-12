@@ -292,10 +292,6 @@ input[type=text]:focus {
   color: #f2f2f2;
 }
 
-tr {
-  border: 1px solid #333;
-  padding: 8px;
-}
 tr:nth-child(even) {
   background-color: #436073;
   color: #f2f2f2;
@@ -307,6 +303,14 @@ tr:nth-child(odd) {
 td {
   border: 1px solid #333;
   padding: 8px;
+}
+
+th {
+  border: 1px solid #333;
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
 }
 
 .p-0 {
@@ -447,6 +451,10 @@ td {
 
 .fs-xxl {
   font-size: 3.375rem;
+}
+
+.fs-xxxl {
+  font-size: 4.225rem;
 }
 
 .fw-r {
