@@ -294,6 +294,7 @@ input[type=text]:focus {
 
 table {
   border-collapse: collapse;
+  margin: 10px;
 }
 
 tr:nth-child(even) {
