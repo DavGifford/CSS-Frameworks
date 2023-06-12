@@ -20,4 +20,6 @@ i.e. pb-2 for padding bottom x 2
 utility classes include:
 Padding: p, pl, pr, pt, pb - with values of 1, 2
 Margin: m, ml, mr, mt, mb - with values of 1, 2
-Font Size: fs - with values
+Font Size: fs - with values sm, md, lg, xl, xxl, xxxl
+Font Weight: fw - with values r (regular), l (light), b (bold)
+Border Radius: br - with values xs, sm, lg, full (br with no prefix for default radius)
