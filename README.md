@@ -1,7 +1,6 @@
 # DNC-CSS-Frameworks
 
 ## Installation 
-Open VScode, Open the "Command Panel" and Git Clone the Repo
 
 On the top bar, click "Terminal" > "New" and type " npm install -g sass" in the command terminal. This will install SASS.
 
