@@ -130,15 +130,15 @@ img {
 }
 
 .text-peach {
-  color: bisque;
+  color: rgb(252, 241, 228);
 }
 
 .bg-peach {
-  background-color: bisque;
+  background-color: rgb(252, 241, 228);
 }
 
 .bc-peach {
-  border: 5px solid bisque;
+  border: 5px solid rgb(252, 241, 228);
 }
 
 .button {
@@ -273,13 +273,13 @@ img {
   padding: 15px;
   margin: 30px;
   border-radius: 6px;
-  background-color: bisque;
+  background-color: rgb(252, 241, 228);
 }
 .button-peach:hover {
   background-color: #092536;
 }
 .button-peach:hover {
-  background-color: #ffcd91;
+  background-color: #f7d9b6;
 }
 
 ul {
@@ -320,6 +320,9 @@ tr {
 tr:nth-child(even) {
   background-color: #436073;
   color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  color: #436073;
 }
 
 td {
