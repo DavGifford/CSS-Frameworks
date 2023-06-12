@@ -109,15 +109,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-peach {
-  color: rgb(252, 241, 228);
+  color: rgb(243, 237, 230);
 }
 
 .bg-peach {
-  background-color: rgb(252, 241, 228);
+  background-color: rgb(243, 237, 230);
 }
 
 .bc-peach {
-  border: 5px solid rgb(252, 241, 228);
+  border: 5px solid rgb(243, 237, 230);
 }
 
 .button {
@@ -252,13 +252,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px;
   margin: 30px;
   border-radius: 6px;
-  background-color: rgb(252, 241, 228);
+  background-color: rgb(243, 237, 230);
 }
 .button-peach:hover {
   background-color: #092536;
 }
 .button-peach:hover {
-  background-color: #f7d9b6;
+  background-color: #e2d4c4;
 }
 
 ul {
