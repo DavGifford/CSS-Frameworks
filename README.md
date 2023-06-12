@@ -12,7 +12,7 @@ Now, normally you can compile your Sass code to CSS using the sass command sass 
 
 However for this project we will be using Gulp to compile everything for us in to our CSS file.
 
-** Keep your terminal open **
+**Keep your terminal open**
 
 ### Gulp Installation
 
